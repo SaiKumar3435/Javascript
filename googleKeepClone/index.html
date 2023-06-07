@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Google Keep Clone</title>
+  <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Google Keep Clone</h1>
+    <div class="note-form">
+      <input type="text" id="note-input" placeholder="Enter a note">
+      <button onclick="addNote()">Add</button>
+    </div>
+    <div class="note-section">
+      <h2>Notes</h2>
+      <div id="note-list"></div>
+    </div>
+    <div class="note-section">
+      <h2>Archived Notes</h2>
+      <div id="archived-list"></div>
+    </div>
+    <div class="note-section">
+      <h2>Deleted Notes</h2>
+      <div id="deleted-list"></div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
